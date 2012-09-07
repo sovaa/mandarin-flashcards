@@ -1,0 +1,84 @@
+html {
+    padding-top: 20px;
+}
+
+a {
+  color: #990000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+optgroup {
+  border-top: 2px solid #CCCCCC;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #333;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,hsla(0,0%,0%,0)), color-stop(50%,hsla(0,0%,0%,.5)), color-stop(100%,hsla(0,0%,0%,0)));
+    background: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.5) 50%, hsla(0,0%,0%,0) 100%);
+    background:    -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.5) 50%, hsla(0,0%,0%,0) 100%);
+    background:     -ms-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.5) 50%, hsla(0,0%,0%,0) 100%);
+    background:      -o-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.5) 50%, hsla(0,0%,0%,0) 100%);
+    background:         linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,.5) 50%, hsla(0,0%,0%,0) 100%);
+}
+
+body, caption, td, th, legend, li {
+  font-family: Arial;
+  color: Black;
+  font-size: 12px;
+}
+
+body {
+  margin: 0px;
+  background-color: #EFEFEB;
+}
+
+body:before {
+   content: "";
+   position: fixed;
+   top: -10px;
+   left: 0;
+   width: 100%;
+   height: 10px;
+   z-index: 100;
+   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+input[type="text"] {
+    -webkit-border-radius: 4px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
+    -khtml-border-radius: 4px; /* konquror? */
+    -moz-border-radius: 4px; /* FF4-? */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+    padding: 2px;
+    margin: 1px;
+}
+
+input.focusField {
+    border: solid 1px #445465;
+    background: #EFF5FF;
+    color: #000000;
+
+    -webkit-box-shadow: 0px 0px 2px 0px #222A32; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    box-shadow: 0px 0px 2px 0px #222A32; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+
+input.idleField {
+    background: #ffffff;
+    color: #6F6F6F;
+    border: solid 1px #A5BDD7;
+}
+
+div#container {
+    text-align: center; 
+    margin-top: 40px;
+}
+
